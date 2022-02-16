@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        Una prueba de un componente
     """,
 
     'author': "Alvaro A.M",
