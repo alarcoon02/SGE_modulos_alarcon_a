@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class prueba1(models.Model):
-#     _name = 'prueba1.prueba1'
-#     _description = 'prueba1.prueba1'
+class manbike31(models.Model):
+    _name = 'manbike31.manbike31'
+    _description = 'manbike31.manbike31'
 
-#     name = fields.Char()
+    name = fields.Char()
+    description = fields.Text()
+    price = fields.Float()
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
+#     
 #
 #     @api.depends('value')
 #     def _value_pc(self):
 #         for record in self:
 #             record.value2 = float(record.value) / 100
-
-
